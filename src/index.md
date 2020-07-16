@@ -6,6 +6,9 @@ date: July 15, 2019
 # Domain Adaptation
 ![](DA_Classification.JPG)
 
+# Reveiw
+![](Reveiw.JPG)
+
 # DFA
 * Discriminative Feature Alignment:mproving Transferability of Unsupervised Domain Adaptation by Gaussian-guided Latent Alignment
 ![Idea](DAL_idea.JPG)
@@ -17,7 +20,8 @@ date: July 15, 2019
 * Maximum Classifier Discrepancy for Unsupervised Domain Adaptation
 * CVPR 2018
 
-# Step A. Train Genrator and Classifiers
+# Step A
+* Train Genrator and Classifiers
 ![](DA_StepA.jpg)
 
 # Step B
@@ -29,7 +33,7 @@ date: July 15, 2019
 # Algorithm
 ![](DAL_Alg1.JPG)
 
-# Comparing Performance
+# Performance
 ![](DAL_Res.JPG)
 
 
