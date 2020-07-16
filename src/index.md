@@ -17,13 +17,13 @@ date: July 15, 2019
 * CVPR 2018
 
 # Step A. Train Genrator and Classifiers
-![](DA_stepA.JPG)
+![](DA_StepA.JPG)
 
 # Step B
-![](DA_stepB.JPG)
+![](DA_StepB.JPG)
 
 # Step C
-![](DA_stepC.JPG)
+![](DA_StepC.JPG)
 
 # Algorithm
 ![](DAL_Alg1.JPG)
