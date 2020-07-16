@@ -43,11 +43,11 @@ A Joint Training Method with Co-Regularization
 ![](JoCor.jpg)
 
 # Algorithm
-<img src="JoCor_Algorithm.jpg" width="50%">
+<img src="JoCor_Algorithm.jpg" width="70%">
 
 # [ADA](https://arxiv.org/pdf/2003.13216.pdf)
 * Learning to Learn Single Domain Generalization
-<img src="ADA_idea.JPG" width="80%">
+<img src="ADA_idea.JPG" width="70%">
 
 #
 $$x^+_{t+1} \rightarrow x^+_t +\gamma \Delta_{x^+_t} L_{ADA}(θ, ψ; x^+_t, z^+_t)$$
