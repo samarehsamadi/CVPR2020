@@ -62,7 +62,7 @@ $$\min_\si [|G(Q(\bold{x})) − x|^2 + \lambda D_e(Q(\bold{x}), P(\bold{e}))]$$ 
 $$L_{relax}=| x^+ - V(x^+) |^2$$
 
 # Relax
-![](ADA_Relax.JPG)
+![](ADA_relax.JPG)
 
 # عنوان اول {dir=rtl}
 
