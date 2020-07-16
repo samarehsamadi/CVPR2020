@@ -36,7 +36,13 @@ date: July 15, 2019
 # Performance
 ![](DAL_Res.JPG)
 
+# JoCoR 
+* Combating Noisy Labels by Agreement:
+A Joint Training Method with Co-Regularization
+![](JoCor.JPG)
 
+# Algorithm
+![Algorithm](JoCor_Algorithm.JPG)
 
 # عنوان اول {dir=rtl}
 
