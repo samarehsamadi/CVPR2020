@@ -7,7 +7,7 @@ date: July 15, 2019
 ![](DA_Classification.JPG)
 
 # Reveiw
-<img src="DA_Reveiw.png" height="80%">
+<img src="DA_Reveiw.png" width="80%">
 
 
 # DFA
@@ -40,10 +40,10 @@ date: July 15, 2019
 # JoCoR 
 * Combating Noisy Labels by Agreement:
 A Joint Training Method with Co-Regularization
-![](JoCor.JPG)
+![](JoCor.jpg)
 
 # Algorithm
-![Algorithm](JoCor_Algorithm.JPG)
+![Algorithm](JoCor_Algorithm.jpg)
 
 # عنوان اول {dir=rtl}
 
