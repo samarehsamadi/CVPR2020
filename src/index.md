@@ -15,7 +15,7 @@ date: July 15, 2019
 ![Idea](DAL_idea.JPG)
 
 # Network
-<img src="DAL_net.JPG" width="80%">
+<img src="DAL_net.JPG" width="70%">
 
 # Related Work
 * Maximum Classifier Discrepancy for Unsupervised Domain Adaptation
@@ -43,7 +43,7 @@ A Joint Training Method with Co-Regularization
 ![](JoCor.jpg)
 
 # Algorithm
-<img src="JoCor_Algorithm.jpg" width="70%">
+<img src="JoCor_Algorithm.jpg" width="60%">
 
 # [ADA](https://arxiv.org/pdf/2003.13216.pdf)
 * Learning to Learn Single Domain Generalization
@@ -51,7 +51,7 @@ A Joint Training Method with Co-Regularization
 ![Adversarial Domain Augmentation](ADA_idea.JPG)
 
 #
-$$x^+_{t+1} \rightarrow x^+_t +\gamma \Delta_{x^+_t} LADA(θ, ψ; x^+_t, z^+_t)$$
+$$x^+_{t+1} \rightarrow x^+_t +\gamma \Delta_{x^+_t} L_{ADA}(θ, ψ; x^+_t, z^+_t)$$
 $$L_{ADA}=L_{task}(\theta;\bf{x})-\alpha L_{const}(\theta;\bf{z})+ \beta L_{relax}(\psi;\bf{x})$$
 
 #
