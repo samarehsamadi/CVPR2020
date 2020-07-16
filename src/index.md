@@ -43,7 +43,7 @@ A Joint Training Method with Co-Regularization
 ![](JoCor.jpg)
 
 # Algorithm
-<img src="JoCor_Algorithm.jpg" width="80%">
+<img src="JoCor_Algorithm.jpg" width="70%">
 
 # [ADA](https://arxiv.org/pdf/2003.13216.pdf)
 * Learning to Learn Single Domain Generalization
@@ -52,14 +52,14 @@ A Joint Training Method with Co-Regularization
 
 #
 $$x^+_{t+1} \rightarrow x^+_t +\gamma \Delta x^+_t LADA(θ, ψ; x^+_t, z^+_t)$$
-$$L_{ADA}=L_{task}(\theta;\bf{x})-\alpha L_{const}(\theta;\bf{z})+ \beta L_{relax}(\si;\bf{x})$$
+$$L_{ADA}=L_{task}(\theta;\bf{x})-\alpha L_{const}(\theta;\bf{z})+ \beta L_{relax}(\psi;\bf{x})$$
 
 #
 $$L_{task}(y,\hat{y})=- \sum_i y_i log\hat{y}_i$$
 
 $$L_{const}=\frac{1}{2}|z-z^+|_2^2 +\infty. \textbf{1} \{ y \neq y^+ \}$$
 
-$$\min_\si [|G(Q(\bold{x})) − x|^2 + \lambda D_e(Q(\bold{x}), P(\bold{e}))]$$
+$$\min_\si [|G(Q(\bf{x})) − x|^2 + \lambda D_e(Q(\bf{x}), P(\bf{e}))]$$
 
 $$L_{relax}=| x^+ - V(x^+) |^2$$
 
