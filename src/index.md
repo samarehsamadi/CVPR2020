@@ -7,7 +7,8 @@ date: July 15, 2019
 ![](DA_Classification.JPG)
 
 # Reveiw
-![](DA_Reveiw.png)
+<img src="DA_Reveiw.png" height="80%">
+
 
 # DFA
 * Discriminative Feature Alignment:mproving Transferability of Unsupervised Domain Adaptation by Gaussian-guided Latent Alignment
