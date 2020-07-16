@@ -4,7 +4,7 @@ title: CVPR 2020
 date: July 15, 2019
 ---
 # Domain Adaptation
-![Idea](DA_Classification)
+![Idea](DA_Classification.JPG)
 
 # Bar
 * $x^2$
