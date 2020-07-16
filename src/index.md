@@ -43,26 +43,27 @@ A Joint Training Method with Co-Regularization
 ![](JoCor.jpg)
 
 # Algorithm
-![Algorithm](JoCor_Algorithm.jpg)
+<img src="JoCor_Algorithm.jpg" width="80%">
 
-# [Learning to Learn Single Domain Generalization](https://arxiv.org/pdf/2003.13216.pdf)
-* idea: adversarial domain augmentation to solve this Outof-Distribution (OOD) generalization problem -> cast the model
-training in a meta-learning scheme and use a Wasserstein
-Auto-Encoder (WAE) to relax the widely used worst-case
-constraint
+# [ADA](https://arxiv.org/pdf/2003.13216.pdf)
+* Learning to Learn Single Domain Generalization
 
 ![Adversarial Domain Augmentation](ADA_idea.JPG)
 
 #
-$$L_{ADA}=L_{task}(\theta;\bold{x})-\alpha L_{const}(\theta;\bold{z})+ \beta L_{relax}(\si;\bold{x})$$
+$$L_{ADA}=L_{task}(\theta;\bf{x})-\alpha L_{const}(\theta;\bf{z})+ \beta L_{relax}(\si;\bf{x})$$
 
 $$L_{task}(y,\hat{y})=- \sum_i y_i log\hat{y}_i$$
 
-$$L_{const}=\frac{1}{2}|z-z^+|_2^2 +\infty. \textbf{1}{y \neq y^+}$$
+$$L_{const}=\frac{1}{2}|z-z^+|_2^2 +\infty. \textbf{1} \{ y \neq y^+ \}$$
 
-WAE, training $$\min_\si [|G(Q(\bold{x})) − x|^2 + \lambda D_e(Q(\bold{x}), P(\bold{e}))]$$ $$D_e$$: could be Maximum Mean Discrepancy (MMD) or GANs
+$$\min_\si [|G(Q(\bold{x})) − x|^2 + \lambda D_e(Q(\bold{x}), P(\bold{e}))]$$ $$D_e$$
 
 $$L_{relax}=| x^+ - V(x^+) |^2$$
+
+# Relax
+![](ADA_Relax.JPG)
+
 # عنوان اول {dir=rtl}
 
 <div dir=rtl>این متن فارسی باید راست به چپ نشان داده شود.</div>
