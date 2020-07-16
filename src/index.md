@@ -6,8 +6,8 @@ date: July 15, 2019
 # Domain Adaptation
 ![](DA_Classification.JPG)
 
-# Discriminative Feature Alignment: 
-* Improving Transferability of Unsupervised Domain Adaptation by Gaussian-guided Latent Alignment
+# DFA
+* Discriminative Feature Alignment:mproving Transferability of Unsupervised Domain Adaptation by Gaussian-guided Latent Alignment
 ![Idea](DAL_idea.JPG)
 
 # Network
