@@ -7,7 +7,7 @@ date: July 15, 2019
 ![](DA_Classification.JPG)
 
 # Reveiw
-<img src="DA_Reveiw.png" width="80%">
+<img src="DA_Reveiw.png" width="70%">
 
 
 # DFA
@@ -15,7 +15,7 @@ date: July 15, 2019
 ![Idea](DAL_idea.JPG)
 
 # Network
-![](DAL_net.JPG)
+<img src="DAL_net.JPG" width="80%">
 
 # Related Work
 * Maximum Classifier Discrepancy for Unsupervised Domain Adaptation
