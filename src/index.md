@@ -1,9 +1,9 @@
 ---
-author: John Doe
-title: Demo Slide
-date: June 21, 2017
+author: Samareh Samadi
+title: CVPR 2020
+date: July 15, 2019
 ---
-# Foo
+# Domain Adaptation
 ```python
 print("hello world")
 ```
