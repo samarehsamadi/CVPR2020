@@ -51,13 +51,15 @@ A Joint Training Method with Co-Regularization
 ![Adversarial Domain Augmentation](ADA_idea.JPG)
 
 #
+$$x^+_{t+1} \rightarrow x^+_t +\gamma \Delta x^+_t LADA(θ, ψ; x^+_t, z^+_t)$$
 $$L_{ADA}=L_{task}(\theta;\bf{x})-\alpha L_{const}(\theta;\bf{z})+ \beta L_{relax}(\si;\bf{x})$$
 
+#
 $$L_{task}(y,\hat{y})=- \sum_i y_i log\hat{y}_i$$
 
 $$L_{const}=\frac{1}{2}|z-z^+|_2^2 +\infty. \textbf{1} \{ y \neq y^+ \}$$
 
-$$\min_\si [|G(Q(\bold{x})) − x|^2 + \lambda D_e(Q(\bold{x}), P(\bold{e}))]$$ $$D_e$$
+$$\min_\si [|G(Q(\bold{x})) − x|^2 + \lambda D_e(Q(\bold{x}), P(\bold{e}))]$$
 
 $$L_{relax}=| x^+ - V(x^+) |^2$$
 
