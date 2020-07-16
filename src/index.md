@@ -6,7 +6,8 @@ date: July 15, 2019
 # Domain Adaptation
 ![](DA_Classification.JPG)
 
-# Discriminative Feature Alignment: Improving Transferability of Unsupervised Domain Adaptation by Gaussian-guided Latent Alignment
+# Discriminative Feature Alignment: 
+* Improving Transferability of Unsupervised Domain Adaptation by Gaussian-guided Latent Alignment
 ![Idea](DAL_idea.JPG)
 
 # Network
@@ -17,7 +18,7 @@ date: July 15, 2019
 * CVPR 2018
 
 # Step A. Train Genrator and Classifiers
-![](DA_StepA.JPG)
+![](DA_StepA.jpg)
 
 # Step B
 ![](DA_StepB.JPG)
