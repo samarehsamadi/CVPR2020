@@ -101,8 +101,22 @@
 <img data-src="JoCor_Algorithm.jpg" alt="" /><figcaption>Algorithm</figcaption>
 </figure>
 </section>
-<section id="عنوان-اول" class="slide level1" dir="rtl">
-<h1 dir="rtl">عنوان اول</h1>
+<section id="learning-to-learn-single-domain-generalization" class="slide level1">
+<h1><a href="https://arxiv.org/pdf/2003.13216.pdf">Learning to Learn Single Domain Generalization</a></h1>
+<ul>
+<li>idea: adversarial domain augmentation to solve this Outof-Distribution (OOD) generalization problem -&gt; cast the model training in a meta-learning scheme and use a Wasserstein Auto-Encoder (WAE) to relax the widely used worst-case constraint</li>
+</ul>
+<figure>
+<img data-src="ADA_idea.JPG" alt="" /><figcaption>Adversarial Domain Augmentation</figcaption>
+</figure>
+</section>
+<section id="section" class="slide level1">
+<h1></h1>
+<p><span class="math display">\[L_{ADA}=L_{task}(\theta;\bold{x})-\alpha L_{const}(\theta;\bold{z})+ \beta L_{relax}(\si;\bold{x})\]</span></p>
+<p><span class="math display">\[L_{task}(y,\hat{y})=- \sum_i y_i log\hat{y}_i\]</span></p>
+<p><span class="math display">\[L_{const}=\frac{1}{2}|z-z^+|_2^2 +\infty. \textbf{1}{y \neq y^+}\]</span></p>
+<p>WAE, training <span class="math display">\[\min_\si [|G(Q(\bold{x})) − x|^2 + \lambda D_e(Q(\bold{x}), P(\bold{e}))]\]</span> <span class="math display">\[D_e\]</span>: could be Maximum Mean Discrepancy (MMD) or GANs</p>
+<p><span class="math display">\[L_{relax}=| x^+ - V(x^+) |^2\]</span> # عنوان اول {dir=rtl}</p>
 <div dir="rtl">
 این متن فارسی باید راست به چپ نشان داده شود.
 </div>
