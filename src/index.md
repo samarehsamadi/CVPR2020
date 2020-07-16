@@ -4,9 +4,8 @@ title: CVPR 2020
 date: July 15, 2019
 ---
 # Domain Adaptation
-```python
-print("hello world")
-```
+![Idea](DA_Classification)
+
 # Bar
 * $x^2$
 * test
