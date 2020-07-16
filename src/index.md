@@ -43,7 +43,7 @@ A Joint Training Method with Co-Regularization
 ![](JoCor.jpg)
 
 # Algorithm
-<img src="JoCor_Algorithm.jpg" width="70%">
+<img src="JoCor_Algorithm.jpg" width="60%">
 
 # [ADA](https://arxiv.org/pdf/2003.13216.pdf)
 * Learning to Learn Single Domain Generalization
