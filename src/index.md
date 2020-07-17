@@ -6,12 +6,13 @@ date: July 15, 2019
 # Domain Adaptation
 ![](DA_Classification.JPG)
 
-# Reveiw
+# Review
+* Deep Visual Unsupervised Domain Adaptation for Classification Tasks: A Survey
 <img src="DA_Reveiw.png" width="70%">
 
 
 # DFA
-* Discriminative Feature Alignment:mproving Transferability of Unsupervised Domain Adaptation by Gaussian-guided Latent Alignment
+* Discriminative Feature Alignment: Improving Transferability of Unsupervised Domain Adaptation by Gaussian-guided Latent Alignment
 ![Idea](DAL_idea.JPG)
 
 # Network
