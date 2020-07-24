@@ -58,7 +58,7 @@ $$x^+_{t+1} \rightarrow x^+_t +\gamma \Delta_{x^+_t} L_{ADA}(θ, ψ; x^+_t, z^+_
 $$L_{ADA}=L_{task}(\theta;\bf{x})-\alpha L_{const}(\theta;\bf{z})+ \beta L_{relax}(\psi;\bf{x})$$
 
 #
-<img src="AD_loss.JPG" width="100%">
+<img src="ADA_loss.JPG" width="100%">
 
 #
 $$L_{task}(y,\hat{y})=- \sum_i y_i log\hat{y}_i$$
