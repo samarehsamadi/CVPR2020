@@ -48,11 +48,17 @@ A Joint Training Method with Co-Regularization
 
 # [ADA](https://arxiv.org/pdf/2003.13216.pdf)
 * Learning to Learn Single Domain Generalization
+<img src="DG.JPG" width="100%">
+
+# [ADA](https://arxiv.org/pdf/2003.13216.pdf)
 <img src="ADA_idea.JPG" width="70%">
 
 #
 $$x^+_{t+1} \rightarrow x^+_t +\gamma \Delta_{x^+_t} L_{ADA}(θ, ψ; x^+_t, z^+_t)$$
 $$L_{ADA}=L_{task}(\theta;\bf{x})-\alpha L_{const}(\theta;\bf{z})+ \beta L_{relax}(\psi;\bf{x})$$
+
+#
+<img src="AD_loss.JPG" width="100%">
 
 #
 $$L_{task}(y,\hat{y})=- \sum_i y_i log\hat{y}_i$$
